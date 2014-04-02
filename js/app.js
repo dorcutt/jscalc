@@ -8,6 +8,7 @@ require.config(
 
 });
 
+// Testing
 
 require(["app/calculatorModel", "app/mainView"], function(model, view){
 	var calcView = new view({model: new model({})});
